@@ -1,3 +1,3 @@
-import { sum } from "./app/sum.js";
+import { FindUser } from "./app/sum.js";
 
-sum(23, 22);
+const user1 = new FindUser("Ricardo", 32);
