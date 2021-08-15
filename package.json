@@ -4,11 +4,21 @@
   "private": true,
   "main": "index.js",
   "scripts": {
-    "start": "webpack --config webpack.config.js"
+    "build": "webpack --config webpack.config.js",
+    "server": "webpack serve --mode development"
   },
   "license": "MIT",
   "devDependencies": {
+    "css-loader": "^6.2.0",
+    "sass": "^1.37.5",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.2.1",
     "webpack": "^5.50.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.0",
+    "popper.js": "^1.16.1",
     "webpack-cli": "^4.7.2"
   }
 }
