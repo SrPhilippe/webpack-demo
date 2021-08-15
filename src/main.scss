@@ -1,7 +1,12 @@
-@import "bootstrap";
+@import "~bootstrap/scss/bootstrap-grid";
 
-$bg: purple;
+$bg: red;
 
 body {
     background-color: $bg;
+}
+
+div {
+    color: white;
+    height: 100vh;
 }
