@@ -1,5 +1,7 @@
 import 'bootstrap';
 import './main.scss';
-import { FindUser } from "./app/sum.js";
+import { User } from "./app/createUser.js";
 
-const user1 = new FindUser("Ricardo", 32);
+const user1 = new User("Philippe", "Silva", "2185321343", 22)
+
+console.log(user1)
